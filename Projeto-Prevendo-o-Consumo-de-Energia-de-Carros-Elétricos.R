@@ -1,5 +1,3 @@
-setwd('C:/Users/Alessandro/Downloads/Cursos 2023/Big Data Analytics com R e Microsoft Azure Machine Learning/CAP20-Projetos_com_Feedback')
-
           ## MACHINE LEARNING EM LOGÍSTICA ##
 ## PREVENDO O CONSUMO DE ENERGIA DE CARROS ELÉTRICOS ##
 
