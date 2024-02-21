@@ -43,7 +43,7 @@ dados <- dados %>%
 # Ainda resta 1 caso com valor NA. Nesse caso, vou removê-lo
 dados <- na.omit(dados)
 
-# Aplicando One-Hot-Encoding nas variáveis categóricas
+# Aplicando Label Encoding nas variáveis categóricas
 categoricas <- sapply(dados, is.character)
 dados <- dados %>%
   mutate_if(categoricas, as.factor)
